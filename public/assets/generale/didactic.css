@@ -1,0 +1,35 @@
+
+/* guard didactic */
+.tabel_header{
+    background-color: #7b41d8;
+}
+
+.color-green{
+    color: green;
+}
+
+.disabled{
+    opacity: 0.3;
+}
+
+
+.zile_pontaj{
+    display: grid;
+}
+
+.zi_pontaj{
+    text-align: center;
+    vertical-align: center;
+    line-height: 42px;
+}
+
+.disabled{
+    cursor:default; 
+}
+
+.rezumat-proiect label{
+    font-weight: 500;
+    display: block;
+    color: #9992a6;
+    margin-bottom: 0;
+}

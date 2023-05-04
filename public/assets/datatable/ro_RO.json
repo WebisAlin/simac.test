@@ -1,0 +1,178 @@
+{
+    "emptyTable": "Nu exista date disponibile in tabel",
+    "info": "Arata de la _START_ la _END_ din _TOTAL_ rezultate",
+    "infoEmpty": "Arata 0 din 0 of 0 rezultate",
+    "infoFiltered": "",
+    "infoThousands": ",",
+    "lengthMenu": " _MENU_ rezultate",
+    "loadingRecords": "Se incarca...",
+    "processing": "Se proceseaza...",
+    "search": "Cauta:",
+    "zeroRecords": "Nu au fost gasite inregistrari care sa se potriveasca",
+    "thousands": ",",
+    "paginate": {
+        "first": "Primul",
+        "last": "Ultimul",
+        "next": "Urmator",
+        "previous": "Anterior"
+    },
+    "aria": {
+        "sortAscending": ": activati pentru a sorta coloana crescatoare",
+        "sortDescending": ": activati pentru a sorta coloana decrescatoare"
+    },
+    "autoFill": {
+        "cancel": "Anuleaza",
+        "fill": "Umpleti toate celulele cu <i>%d<\/i>",
+        "fillHorizontal": "Umplei celulele orizontal",
+        "fillVertical": "Umpleti celulele pe verticală"
+    },
+    "buttons": {
+        "collection": "Colectie <span class='ui-button-icon-primary ui-icon ui-icon-triangle-1-s'\/>",
+        "colvis": "Vizibilitatea coloane",
+        "colvisRestore": "Restabiliti vizibilitatea",
+        "copy": "Copiaza",
+        "copyKeys": "Apasa ctrl or u2318 + C pentru a copia datele tabelului in clipboard-ul sistemului.<br><br>Pentru a anula, faceti clic pe acest mesaj sau apasati pe Escape.",
+        "copySuccess": {
+            "1": "Copiat 1 rând în clipboard",
+            "_": "Copiate %d randuri in clipboard"
+        },
+        "copyTitle": "Copiați în clipboard",
+        "csv": "CSV",
+        "excel": "Excel",
+        "pageLength": {
+            "-1": "Afisati toate randurile",
+            "1": "Afisati un rand",
+            "_": "Arata %d randuri"
+        },
+        "pdf": "PDF",
+        "print": "Print"
+    },
+    "searchBuilder": {
+        "add": "Adauga conditie",
+        "button": {
+            "0": "Search Builder",
+            "_": "Search Builder (%d)"
+        },
+        "clearAll": "Sterge tot",
+        "condition": "Conditie",
+        "conditions": {
+            "date": {
+                "after": "Dupa",
+                "before": "Inainte",
+                "between": "Intre",
+                "empty": "Gol",
+                "equals": "Egal",
+                "not": "Not",
+                "notBetween": "Not Between",
+                "notEmpty": "Not Empty"
+            },
+            "number": {
+                "between": "Between",
+                "empty": "Empty",
+                "equals": "Equals",
+                "gt": "Greater Than",
+                "gte": "Greater Than Equal To",
+                "lt": "Less Than",
+                "lte": "Less Than Equal To",
+                "not": "Not",
+                "notBetween": "Not Between",
+                "notEmpty": "Not Empty"
+            },
+            "string": {
+                "contains": "Contains",
+                "empty": "Empty",
+                "endsWith": "Ends With",
+                "equals": "Equals",
+                "not": "Not",
+                "notEmpty": "Not Empty",
+                "startsWith": "Starts With"
+            },
+            "array": {
+                "without": "Without",
+                "notEmpty": "Not Empty",
+                "not": "Not",
+                "contains": "Contains",
+                "empty": "Empty",
+                "equals": "Equals"
+            }
+        },
+        "data": "Data",
+        "deleteTitle": "Sterge filtre",
+        "leftTitle": "Criterii fără indentare",
+        "logicAnd": "And",
+        "logicOr": "Or",
+        "rightTitle": "Indent Criteria",
+        "title": {
+            "0": "Search Builder",
+            "_": "Search Builder (%d)"
+        },
+        "value": "Value"
+    },
+    "searchPanes": {
+        "clearMessage": "Clear All",
+        "collapse": {
+            "0": "SearchPanes",
+            "_": "SearchPanes (%d)"
+        },
+        "count": "{total}",
+        "countFiltered": "{shown} ({total})",
+        "emptyPanes": "No SearchPanes",
+        "loadMessage": "Loading SearchPanes",
+        "title": "Filters Active - %d"
+    },
+    "select": {
+        "1": "%d row selected",
+        "_": "%d rows selected",
+        "cells": {
+            "1": "1 cell selected",
+            "_": "%d cells selected"
+        },
+        "columns": {
+            "1": "1 column selected",
+            "_": "%d columns selected"
+        }
+    },
+    "datetime": {
+        "previous": "Previous",
+        "next": "Next",
+        "hours": "Hour",
+        "minutes": "Minute",
+        "seconds": "Second",
+        "unknown": "-",
+        "amPm": [
+            "am",
+            "pm"
+        ]
+    },
+    "editor": {
+        "close": "Close",
+        "create": {
+            "button": "New",
+            "title": "Create new entry",
+            "submit": "Create"
+        },
+        "edit": {
+            "button": "Edit",
+            "title": "Edit Entry",
+            "submit": "Update"
+        },
+        "remove": {
+            "button": "Delete",
+            "title": "Delete",
+            "submit": "Delete",
+            "confirm": {
+                "_": "Are you sure you wish to delete %d rows?",
+                "1": "Are you sure you wish to delete 1 row?"
+            }
+        },
+        "error": {
+            "system": "A system error has occurred (<a target=\"\\\" rel=\"nofollow\" href=\"\\\">More information<\/a>)."
+        },
+        "multi": {
+            "title": "Multiple Values",
+            "info": "The selected items contain different values for this input. To edit and set all items for this input to the same value, click or tap here, otherwise they will retain their individual values.",
+            "restore": "Undo Changes",
+            "noMulti": "This input can be edited individually, but not part of a group. "
+        }
+    }
+}

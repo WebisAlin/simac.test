@@ -1,0 +1,267 @@
+#datatable_filter{
+	float: right;
+}
+#datatable_length{
+	display: inline-block;
+}
+
+#datatable_length .custom-select{
+   width: 47%
+}
+.datatable_length .custom-select{
+   width: 20%
+}
+
+.dataTables_wrapper .row:first-child{
+   margin-bottom: 10px;
+}
+.dataTables_filter{
+   text-align: right;
+}
+
+.pagination{
+   justify-content:center
+}
+
+/* listare tabele */
+
+.elemente .tabel_header{
+   display: none;
+}
+
+/* format table */
+.format_table .element{
+   display: flex;
+   justify-content: space-between;
+}
+.format_table{
+   border: 1px solid #5c709e;
+}
+
+.format_table .element{
+   padding: 10px;
+   border-bottom: 1px solid #5c709e;
+}
+
+.format_table .element:last-child{
+   border:0;
+}
+
+.format_table .tabel_header{
+   display: flex;
+   background-color: #6d7ea8;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+/* format grid */
+.format_grid {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   column-gap: 10px;
+   row-gap: 10px;
+}
+
+.format_grid .element{
+   padding:15px;
+   background-color: #394b74;
+   position: relative;
+}
+
+.format_grid .element .coloana:not(.coloanaBulk){
+   width: 100% !important;
+}
+
+.format_grid .coloanaBulk{
+   position: absolute;
+   width: auto !important;
+   right: 15px;
+}
+
+.format_grid .coloana:not(.show_on_grid){
+   display: none;
+}
+
+.format_grid .text-principal{
+   font-weight: 600;
+   font-size: 18px;
+}
+.format_grid .text-sub-secundar{
+   font-size: 12px;
+}
+.format_grid .d-inline{
+   display: inline;
+}
+
+.format_table .mr-1{
+   margin:0 !important;
+}
+
+.box_butoane_view{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   column-gap:10px;
+   margin-bottom: 10px;
+}
+.box_butoane_view .buton_view{
+   background-color: #0c9ff6;
+   display: flex;
+   justify-content: center;
+   padding: 6px;
+   cursor: pointer;
+   border-radius: 5px;
+   color: #fff;
+}
+.box_butoane_view .buton_view.active{
+   cursor: default;
+   opacity: 0.6;
+   pointer-events: none;
+}
+
+/* light mode / dark mode */
+.box_switch label{
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.box_switch i{
+   color:#7490BD
+}
+
+.box_switch{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+.box_switch .galben{
+   color: yellow;
+}
+
+.box_switch .custom-switch-input:checked~.custom-switch-indicator{
+   background: #7b41d8;
+}
+
+.box_switch .custom-switch-indicator{
+   height: 1rem;
+   width: 2rem;
+}
+
+.box_switch .custom-switch-indicator:before{
+   height: calc(1rem - 4px);
+   width: calc(1rem - 4px);
+}
+
+.imgProfile{
+   height: 150px;
+   width: 150px;
+   object-fit: contain;
+   margin-bottom: 10px;
+}
+
+.mCSB_container {
+   height: 100%;
+
+}
+
+.paddingTop70{
+   padding-top: 70px;
+}
+
+.paddingTop50{
+   padding-top: 50px;
+}
+
+
+/* meniu */
+
+.bb-0{
+   border-bottom: 0 !important;
+}
+
+.sageata_expand{
+   float:right;
+}
+
+.divMeniu, .divMeniu ol{
+   list-style-type: none;
+}
+
+.divMeniu{
+   padding-left: 0;
+}
+
+.meniu_expand{
+   position: absolute;
+   right: 44px;
+   font-size:12px;
+   height: 17px;
+   font-weight: 300;
+}
+
+.sterge_elem_meniu{
+   position: absolute;
+   right: 12px;
+   z-index: 2;
+   top: 14px;
+   font-size: 17px;
+   color: red;
+   cursor: pointer;
+}
+
+.salvat{
+   display: none;
+   position: absolute;
+   top: 42px;
+   background: #2c8607;
+   color: white;
+   font-size: 12px;
+   border: 1px solid;
+   padding: 5px;
+   border-radius: 10px;
+}
+
+.side-menu__label{
+   white-space: normal;
+}
+
+.ck-content{
+   color:#444
+}
+
+.required{
+   color: red;
+   font-size: 16px;
+}
+
+.rezultateCautare{
+   margin-top: 5px;
+   position: absolute;
+   width: 97%;
+   z-index: 2;
+   max-height: 211px;
+   overflow-y:auto;
+}
+
+.rezultateCautare li{
+   background: #2e7de3;
+   border: 1px solid #24589d;
+   border-top: 0;
+   padding: 10px;
+   color: #fff;
+}
+
+.rezultateCautare li:hover{
+   background-color: #3473c5;
+}
+.rezultateCautare li:not(.disabled){
+   cursor: pointer;
+}
+
+.rezultateCautare li:first-child{
+   border-top: 1px solid #24589d;
+}
+
