@@ -22,8 +22,7 @@
         .page-break {
             page-break-after: always;
         }
-        
-
+    
         body {
             font-size: 10px;
             color: #000000;
@@ -147,7 +146,7 @@
                 <th>Cerere de grant-suport pentru Premii ale Academiei Române sau ale unor Organizații
                     Internaționale</th>
                 <th>6</th>
-                <th>135 / 2020</th>
+                <th>135 / 2020 </th>
             </tr>
         </tbody>
     </table>
